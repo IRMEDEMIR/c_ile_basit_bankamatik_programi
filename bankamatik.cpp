@@ -27,15 +27,12 @@ int main()
 			scanf("%d",&tutar);
 			
 			if(tutar>bakiye)
-			{
-				printf("Yetersiz Bakiye!");
-			}
+			printf("Yetersiz Bakiye!");
 			
 			if(tutar>limit)
-			{
-				printf("Para cekme ust limitini asamazsınız!\nUst limit=500");
-			}
+			printf("Para cekme ust limitini asamazsiniz!\nUst limit=500\n");
 			
+			else
 			bakiye=bakiye-tutar;
 			printf("Yeni bakiyeniz:%d",bakiye);
 			break;
