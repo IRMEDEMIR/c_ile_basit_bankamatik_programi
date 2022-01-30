@@ -52,17 +52,8 @@ int main()
 			case 4:  //kart iade
 			printf("Kartinizi aliniz..");
 			break;
-			
-		
-			
 		}
-	
 	}
-	
-	
-		
-	
 	return 0;
 }
-
 
